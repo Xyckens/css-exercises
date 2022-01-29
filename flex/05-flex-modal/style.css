@@ -20,8 +20,18 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  
 }
 
+.upper{
+
+  display: flex;
+  justify-content:flex-start;
+  align-items: flex-start;
+  padding: 10px;
+  gap: 10px;
+
+}
 .icon {
   color: royalblue;
   font-size: 26px;
@@ -34,7 +44,20 @@ body {
   align-items: center;
   justify-content: center;
 }
+.header{
+  font-weight: bold;
+  font-size: 19px;
+  flex-grow: 4;
+}
+.text{
+  margin-left: 52px;
+  margin-right: 26px;
+}
+.lower{
+  margin-left: 42px;
 
+  padding: 10px;
+}
 .close-button {
   background: #eee;
   border-radius: 50%;

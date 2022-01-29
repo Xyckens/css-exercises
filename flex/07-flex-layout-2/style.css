@@ -5,24 +5,64 @@ body {
 }
 
 .header {
-  height: 72px;
+  height: 40px;
   background: darkmagenta;
   color: white;
+  display: flex;
+  align-items: center;
+  font-weight: 1000;
+  padding: 0 10px;
 }
 
 .footer {
   height: 72px;
   background: #eee;
   color: darkmagenta;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-
+.body{
+  display: flex;
+  gap: 10px;
+  
+}
 .sidebar {
-  width: 300px;
+  width: 200px;
   background: royalblue;
+  flex-shrink: 0;
+  padding: 16px;
+
+  
+
+}
+.text{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
 }
 
+li {
+  margin-bottom: 16px;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+
+}
 .card {
+  font-size: smaller;
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
+  width: 300px;
+  height: 300px;
 }
